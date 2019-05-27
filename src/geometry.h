@@ -1,8 +1,8 @@
 #ifndef GEOMETRY_H
 #define GEOMETRY_H
 
-#include <cmath>
-#include <iostream>
+#include <math.h>
+#include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 
@@ -26,6 +26,8 @@ typedef struct triangles {
 } triangle;
 
 float Dist(int x1, int y1, int x2, int y2);
+float Perimetr_Circ(float x, float y, float r);
+float Area_Circ(float x, float y, float r);
 void CircleIntersects(circle* circles, triangle* triangles, int Circ, int Trig);
 void Fileread(FILE* input, circle* circles);
 float Perimetr(float x1, float y1, float x2, float y2, float x3, float y3);

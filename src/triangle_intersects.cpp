@@ -280,6 +280,8 @@ void TriangleIntersect(circle* circles, triangle* triangles, int Circ,
         }
 
         for (j = 0; j < Circ; j++) {
+            // P = Perimetr(triangles[j].x1, triangles[j].y1, triangles[j].x2,
+            // triangles[j].y2, triangles[j].x3, triangles[j].y3);
             if (Dist(circles[j].x, circles[j].y, triangles[i].x1, triangles[i].y1) <= circles[j].r) {
                 printf("\n      %d. %s", circles[j].num, circles[j].fig);
                 flag = false;
