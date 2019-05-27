@@ -1,0 +1,8 @@
+circle 2 3 3.5
+circle -1 0 4.3
+triangle 1 2 4 5 6 2
+circle 6 2 5
+triangle 21 21 21 24 23 22
+triangle 3 2 2 5 6 3 
+circle 20 13 3.25
+circle -5 -3 8
