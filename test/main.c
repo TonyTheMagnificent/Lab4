@@ -19,7 +19,7 @@ CTEST(circle_perimetr_test, result_test)
     const float Result = Perimetr_Circ(x, y, r);
 
     // Equal to
-    const float Expected = 3.141592f*3.0f;
+    const float Expected = 3.141592f*2.0f;
 
     ASSERT_EQUAL(Expected, Result);
 }
